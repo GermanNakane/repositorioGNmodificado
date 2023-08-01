@@ -1,0 +1,231 @@
+/* Mediaqueries */
+@media(max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+    }
+    .navbar a {
+        text-align: center;
+    }
+}
+@media(max-width: 600px) {
+    aside {
+        display: none;
+    }
+}
+@media(max-width: 800px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+}
+@media(max-width: 800px) {
+     header div {
+        width: 100%;
+        margin: 3px;
+        height: auto;
+    }
+}
+@media(max-width: 800px) {
+    header h1 {
+        font-size: 15px;
+    }
+    header img {
+        width: 100%;
+        padding: 5px;
+        height: auto;
+    }
+}
+@media(max-width:800px) {
+    div.principal {
+        flex-direction: column;
+        justify-content:  center;
+        align-items: center;
+    }
+    main, article {
+        flex-direction: column;
+        justify-content:  center;
+    }
+    div main article img {
+        float: none;
+        width: 100%;
+        height: auto;
+        margin: 5px;
+        padding: 0;
+       
+    }
+    iframe {
+        width: 150px;
+        height: 100px;
+    }
+}
+
+/* Estilos Comunes */
+* {
+   box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+img {
+    border-radius: 10px;
+    margin: 10px;
+}
+/* Estilos Header */
+header {
+    display: flex;
+    padding: 2px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+header img {
+    width: 20%;
+    justify-content: center;
+    padding: 5px;
+    
+}
+header div {
+    justify-content: center;
+    border-radius: 5px;
+    background-image: radial-gradient(white, white, rgba(9, 63, 210, 0.7));
+    color: black;
+    height: 6vw;
+    padding: 5px;
+    margin: 3px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+header h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3vw;
+    letter-spacing: 0.2rem;
+    
+}
+/* Estilos Barra de Navegación */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(100, 20, 20);
+    
+}
+.navbar a {
+    color: rgb(232, 232, 242);
+    padding: 5px 30px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    color: rgb(250, 2, 2);
+}
+
+/* Estilos Main */
+.principal {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.identidad p {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 30px 60px;
+    font-size: 28px;
+    text-align: center;
+}
+iframe {
+    width: 600px;
+    height: 400px;
+}
+main {
+    padding: 10px;
+    flex-basis: 75%;
+    
+}
+main img {
+    float: left;
+    margin-right: 20px;
+    width: 269px;
+    height: 187px;
+}
+main ul {
+    padding: 10px;
+    background-color: aquamarine;
+    margin: 5px;
+    list-style-position: inside;
+    border-radius: 5px;
+}
+main p {
+    padding: 10px;
+}
+main h2 {
+    text-align: center;
+}
+.con_acord {
+    width: 70%;
+
+}
+
+/* Estilos Aside */
+aside {
+    background-color: rgb(50, 50, 110);
+    flex-basis: 20%;
+    margin: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    justify-content: center;
+    
+}
+aside ul {
+    list-style-type: none;
+    list-style-position: inside;
+}
+aside ul li {
+    margin: 30px 15px;
+}
+aside ul li a {
+    color: white;
+    text-decoration: none;
+}
+/* Estilos formularios */
+form {
+    margin: auto;
+    justify-content: center;
+}
+input, label, textarea {
+    width: 70%; 
+    display: inline-block;
+    margin: 5px 15% 3px;
+    justify-content: center;
+}
+input[type=submit] {
+    width: 30%;
+    background-color: rgb(2, 2, 103);
+    color: white;
+    margin: 15px 35% 40px;
+}
+textarea {
+    width: 70%;
+    height: 100px;
+    resize: none;
+    
+}
+input[type=file] {
+    background-color: rgb(137, 239, 239);
+}
+/* Estilos Footer */
+footer {
+    border-top: 2px solid rgb(112, 112, 113);
+    text-align: center;
+    margin-top: 50px;
+}
+footer p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10 px;
+}
+footer img {
+    width: 15%;
+}
